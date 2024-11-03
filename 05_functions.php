@@ -46,7 +46,6 @@
                 //         $n--;
                 //     }
                 //     return $f;  // return statement
-
                 // }
 
                 // $m = factorial(5);
@@ -66,6 +65,12 @@
                 //     echo "Value of a is: $a <br>";
                 //     echo "Value of b is: $b <br><br>";
                 // }
+
+                // show(50, 40);
+                // $a = 100;
+                // $b = 200;
+                // echo "Value of a is: $a <br>";
+                // echo "Value of b is: $b <br><br>";
 
                 function swap(&$a, &$b) {     // call by referense or copy by referense.
                     $c = $a;

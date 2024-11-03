@@ -3,7 +3,7 @@
     <body>
         <center>
             <form method="post" action="12A_MyPage1.php">
-                <table border="1">
+                <table border="10">
                     <tr>
                         <th>User Name</th>
                         <td><input type="text" name="username"></td>

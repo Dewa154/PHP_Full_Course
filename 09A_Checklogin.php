@@ -3,8 +3,8 @@
     <body>
         <center>
           <?php
-            $user=$_POST['txtuser'];
-            $pass=$_POST['txtpass'];
+            $_POST['txtuser']=$user;
+            $_POST['txtpass']=$pass;
             // echo $user;
             // echo $pass;
 

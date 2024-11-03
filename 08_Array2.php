@@ -37,12 +37,12 @@
 
 
                 // $newArray = range(1, 20);
-                $newArray = range(1, 20, 2);
-                // print_r($newArray);
+                // $newArray = range(1, 20, 2);
+                // // print_r($newArray);
 
-                for ($i=0; $i < count($newArray); $i++) { 
-                    echo $newArray[$i]."<br>";
-                }
+                // for ($i=0; $i < count($newArray); $i++) { 
+                //     echo $newArray[$i]."<br>";
+                // }
                     
             ?>
         </center>

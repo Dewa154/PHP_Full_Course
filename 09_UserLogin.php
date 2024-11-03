@@ -30,7 +30,7 @@
     
                     if (strcmp($user, "vivek")==0 and strcmp($pass, '123456')==0) {
                         // echo "<font color=green size=5>You are a valid user</font>";
-                        header("location:05_functions.php");  // Redirect to 05_functions.php page on successful login
+                        header("location:09A.Checklogin.php");  // Redirect to 05_functions.php page on successful login
                     } else {
                         echo "<font color=red size=5>Invalid User</font>";
                     }

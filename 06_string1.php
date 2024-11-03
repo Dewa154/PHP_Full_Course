@@ -4,18 +4,18 @@
         <center>
             <?php 
 
-                $str1 = "indore";
-                $str2 = "Indore";
-                if (strcmp($str1, $str2)==0) {
-                    echo "Same";
-                } else {
-                    echo "Not Same";
-                }
+                // $str1 = "indore";
+                // $str2 = "Indore";
+                // if (strcmp($str1, $str2)==0) {
+                //     echo "Same";
+                // } else {
+                //     echo "Not Same";
+                // }
                 
 
-                // $mystr = "Vivek Uprit Data 123 Flair";
+                $mystr = "Vivek Uprit Data 123 Flair";
                 // echo "$mystr <br><br>";     // vivek uprit data 123 flair
-                // // $mystr = ucwords($mystr);   // Vivek Uprit Data 123 Flair
+                // $mystr = ucwords($mystr);   // Vivek Uprit Data 123 Flair
 
                 // $mystr = lcfirst($mystr);       // vivek Uprit Data 123 Flair
                 // echo "$mystr <br>";        
@@ -38,9 +38,9 @@
                 // $n = str_word_count($mystr);
                 // echo "Total word is: $n";
 
-                // $n = strlen($mystr);
-                // echo "$mystr <br>";
-                // echo "Length of string is $n";
+                $n = strlen($mystr);
+                echo "$mystr <br>";
+                echo "Length of string is $n";
             ?>
         </center>
     </body>
